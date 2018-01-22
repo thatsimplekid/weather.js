@@ -44,7 +44,8 @@ Byte 1 is the wind speed as detected by the stations anemomenter (in mph). It is
 #Byte 2
 ---
 
-Byte 2 indicated the direction in which the wind is blowing. The value is from 0-255 and there is a dead zone around 0 (north). It can be translated into degrees, taking note of this offset by using the following arithetic:
+Byte 2 indicated the direction in which the wind is blowing. The value is from 0-255 and there is a dead zone around 0 (north). It can be translated into degrees, taking note of this offset by using the following arithmetic:
+
 windDirection = 9 + Byte2 * 342.0 / 255
 
 #Byte 6
