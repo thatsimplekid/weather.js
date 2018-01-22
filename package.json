@@ -1,0 +1,18 @@
+{
+  "name": "weatherserver",
+  "version": "0.1.0",
+  "description": "A JSON API that serves data collected from the Davis Vantage Pro2",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Owen Flaherty",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "express": "^4.16.2",
+    "serialport": "^6.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.6"
+  }
+}

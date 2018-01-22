@@ -1,0 +1,4 @@
+{
+    "REST_LISTEN_PORT" : 4332,
+    "SERIAL_COM_NUMBER" : "4"
+}
